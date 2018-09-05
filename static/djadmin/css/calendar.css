@@ -1,0 +1,126 @@
+ul,
+li {
+  list-style: none;
+  padding-left: 0;
+
+  margin: 0;
+}
+
+.calendar {
+  display: none;
+  width: 100%;
+  padding: 10px;
+  background-color: #fafafa;
+}
+
+.calendar-title {
+  position: relative;
+  line-height: 20px;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.calendar-title .title {
+  font-size: 14px;
+  color: #1F2D3D;
+}
+
+.calendar-title .arrow-prev,
+.calendar-title .arrow-next {
+  position: absolute;
+  top: 20px;
+  width: 50px;
+  color: #98A9BF;
+}
+
+.calendar-title .arrow-prev {
+  left: 0;
+}
+
+.calendar-title .arrow-next {
+  right: 0;
+}
+
+.calendar-week,
+.calendar-date {
+  overflow: hidden;
+}
+
+.calendar-week .item,
+.calendar-date li {
+  float: left;
+  width: 14.285714%;
+  text-align: center;
+}
+
+.calendar-date .item {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin: 4px;
+  font-size: 14px;
+  color: #C0CCDA;
+  line-height: 24px;
+  text-align: center;
+  background-color: #F4F4F4;
+  border-radius: 2px;
+}
+
+.calendar-week {
+  font-size: 14px;
+  color: #98A9BF;
+}
+
+.calendar-date .item {
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.calendar-date .item:hover,
+.calendar-date .item-curMonth:hover {
+  background-color: #f0f0f0;
+}
+
+.calendar-date .item-curMonth {
+  color: #475669;
+  background-color: transparent;
+}
+
+.calendar-date .item-curDay,
+.calendar-date .item-curDay:hover {
+  color: #fff;
+  background-color: #5CB3FF;
+}
+
+/* .calendar-date .item-selected,
+.calendar-date .item-selected:hover {
+  color: #5CB3FF;
+  background: rgba(92, 179, 255, 0.2);
+} */
+
+.calendar-today {
+  display: none;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  width: 90px;
+  height: 48px;
+  padding: 6px 10px;
+  background-color: rgb(255, 128, 142);
+}
+
+.calendar-today .triangle {
+  position: absolute;
+  top: 50%;
+  left: -16px;
+  margin-top: -8px;
+  border-width: 8px;
+  border-style: solid;
+  border-color: transparent rgb(255, 128, 142) transparent transparent;
+}
+
+.calendar-today p {
+  color: #fff;
+  font-size: 14px;
+  line-height: 24px;
+}

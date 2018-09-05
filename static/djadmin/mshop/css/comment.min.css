@@ -1,0 +1,7 @@
+.star-item{width:20px;height:20px;background:url('../../img/star.png') no-repeat;background-size:100%;display:inline-block;vertical-align:middle}
+.star-item.active{background:url('../../img/star-active.png') no-repeat;background-size:100%}.star-list{list-style:none;padding:0;margin:0 0 15px 0}
+td p{white-space:normal}.u-switch-checkbox{display:inline-block}td p{margin:0 0 15px 0}td .btn{padding:4px 16px}.comment-chart{border:1px dashed #c0ccda;margin-bottom:20px}
+.comment-chart-left{width:50%;display:inline-block;border-right:1px dashed #c0ccda;margin:10px 0}.comment-chart-right{width:49%;display:inline-block;float:right;margin:10px 0}
+.comment-chart-item{margin-bottom:45px}.comment-chart-item .title{color:#475669;font-size:14px;font-weight:600;margin-bottom:15px}.comment-img-list{list-style:none;margin:0 0 15px 0;padding:0}
+.comment-img-item{margin-right:10px;display:inline-block}.comment-img-logo{width:50px;height:50px}#commentTbody .label{margin-right:5px}.f-ellipsis{word-break:break-all;word-wrap:break-word;white-space:pre-wrap}
+.comment-type .label.active{background-color:#5aa2e7;color:#fff;border:0}.comment-type .label{margin-right:5px;cursor:pointer;font-size:14px}

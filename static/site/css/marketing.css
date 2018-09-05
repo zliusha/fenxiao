@@ -1,0 +1,626 @@
+.warp-container .item-container .item:before {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.card-3-b {
+  border: 1px solid #c5c5c5;
+  width: 32.3%;
+  box-sizing: border-box;
+  float: left;
+  position: relative;
+}
+
+.card-3-b:nth-child(2) {
+  margin: 0 1.5%;
+}
+
+.card-4-b {
+  border: 1px solid #c5c5c5;
+  width: 24%;
+  box-sizing: border-box;
+  float: left;
+  position: relative;
+  margin-left: 1%;
+}
+
+.card-4-b:first-child {
+  margin-left: 0;
+}
+
+.btn {
+  color: #fff;
+  font-size: 18px;
+  font-weight: normal;
+  margin-bottom: 0;
+  cursor: pointer;
+  display: block;
+  width: 30%;
+  padding: 13px 18px;
+  text-align: center;
+  margin: auto;
+}
+
+.card-1 {
+  margin-bottom: 50px;
+}
+
+.card-1:last-child {
+  margin-bottom: 0;
+}
+
+.card-2 {
+  width: 50%;
+  box-sizing: border-box;
+  float: left;
+}
+
+.card-3 {
+  width: 33.3%;
+  box-sizing: border-box;
+  float: left;
+}
+
+.card-4 {
+  width: 25%;
+  box-sizing: border-box;
+  float: left;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.card-5 {
+  width: 20%;
+  box-sizing: border-box;
+  float: left;
+  position: relative;
+}
+
+.card-6 {
+  width: 16.66%;
+  box-sizing: border-box;
+  float: left;
+  position: relative;
+}
+
+.card-8 {
+  width: 12.5%;
+  box-sizing: border-box;
+  float: left;
+  margin-bottom: 25px;
+}
+
+.clear:before,
+.partner:before,
+.clear:after,
+.partner:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.response-img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.mark {
+  color: #169EF4 !important;
+}
+
+.hr {
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: #D2D2D2;
+  margin: 25px 0;
+}
+
+.warp-container {
+  height: 586px;
+  overflow: hidden;
+}
+
+.warp-container .container {
+  padding: 60px 0;
+  height: 466px;
+}
+
+.warp-container .card-2-spe {
+  width: 70%;
+  box-sizing: border-box;
+  float: left;
+  position: relative;
+  padding-right: 30px;
+}
+
+.warp-container .card-2-spe:last-child {
+  width: 30%;
+  box-sizing: border-box;
+  float: left;
+}
+
+.warp-container .item-title-container {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.warp-container .item-title-container .item-title {
+  color: #000;
+  font-size: 20px;
+  font-weight: normal;
+  margin-bottom: 0;
+  display: inline-block;
+}
+
+.warp-container .item-title-container .item-more {
+  color: #FFA830;
+  font-size: 16px;
+  font-weight: normal;
+  margin-bottom: 0;
+  cursor: pointer;
+  float: right;
+}
+
+.warp-container .item-container .item {
+  color: #6C6C6C;
+  font-size: 14px;
+  font-weight: normal;
+  margin-bottom: 0;
+  position: relative;
+  display: block;
+  margin: 0 0 20px 20px;
+}
+
+.warp-container .item-container .item:before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  background: #FFA830;
+  left: -20px;
+}
+
+.warp-container .item-btn-container {
+  padding-top: 20px;
+}
+
+.warp-container .item-btn-container .card-3-spe {
+  width: 30%;
+  box-sizing: border-box;
+  float: left;
+  color: #fff;
+  font-size: 18px;
+  font-weight: normal;
+  margin-bottom: 0;
+  background: #FFA830;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+}
+
+.warp-container .item-btn-container .card-3-spe:nth-child(2) {
+  margin: 0 5%;
+}
+
+.swiper-container-1 {
+  width: 100%;
+  height: 577px;
+}
+
+.down-icon {
+  color: #9e9e9e;
+  font-size: 12px;
+  font-weight: normal;
+  margin-bottom: 0;
+}
+
+.down-icon .footer-container {
+  width: 1000px;
+}
+
+.down-icon a {
+  color: #666;
+}
+
+.down-icon a:hover {
+  color: #666;
+  text-decoration: none;
+}
+
+.down-icon .item {
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.marketing-banner {
+  background: url("../img/product/marketing/marketing_bannnr.png") no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 598px;
+}
+
+.banner-center {
+  display: block;
+  position: relative;
+  top: 150px;
+  margin: 0 auto;
+}
+
+.marketing-banner h2 {
+  font-size: 69px;
+  font-weight: normal;
+  text-align: center;
+  color: #fff;
+}
+
+.marketing-banner h3 {
+  display: block;
+  font-size: 44px;
+  font-weight: normal;
+  text-align: center;
+  color: #fff;
+  padding: 20px 0 30px 0;
+}
+
+.width-big-text {
+  font-size: 52px;
+  font-weight: normal;
+  color: #fff;
+  text-align: center;
+  padding: 35px 0 50px 0;
+}
+
+.blue-hot {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: #0d7afb;
+  border-radius: 50%;
+}
+
+.blue-btn {
+  display: block;
+  position: relative;
+  top: 204px;
+  width: 358px;
+  height: 63px;
+  background: #0d7afb;
+  border-radius: 15px;
+  font-size: 30px;
+  text-align: center;
+  line-height: 63px;
+  color: #fff;
+  margin: 0 auto;
+}
+
+.marketing-content {
+  display: block;
+  position: relative;
+}
+
+.width1200 {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.title-h2 {
+  font-size: 30px;
+  font-weight: normal;
+  text-align: center;
+  color: #333;
+  padding: 30px 0 20px 0;
+}
+
+.blue-text {
+  color: #0F7AFB;
+}
+
+.text-h3 {
+  font-size: 24px;
+  font-weight: normal;
+  text-align: center;
+  color: #333;
+}
+
+.marketing-flow-01 {
+  background: url("../img/product/marketing/yd_marketing_flow_01.png") no-repeat center;
+  background-size: cover;
+  width: 1025px;
+  height: 566px;
+  margin: 50px auto;
+}
+
+.gray-bg {
+  background: #F7F8FA;
+}
+
+.marketing-block {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 50px 0 80px 0;
+}
+
+.marketing-block img {
+  margin: 30px;
+}
+
+.marketing-lift {
+  display: inline-block;
+  max-width: 600px;
+}
+
+.blue-p {
+  font-size: 20px;
+  text-align: left;
+  color: #127BF1;
+  line-height: 30px;
+}
+
+.gray-text {
+  font-size: 16px;
+  text-align: left;
+  color: #333;
+}
+
+.ascendancy-ul {
+  padding: 50px 0 70px 0;
+}
+
+.black-ul:before,
+.black-ul:after,
+.ascendancy-ul:before,
+.ascendancy-ul:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.ascendancy-ul li {
+  float: left;
+  width: 16%;
+}
+
+.ascendancy-ul li .come-bg {
+  display: block;
+  width: 214px;
+  height: 458px;
+}
+
+.ascendancy-01 {
+  background: url("../img/product/marketing/ascendancy-01.png") no-repeat center;
+}
+
+.ascendancy-02 {
+  background: url("../img/product/marketing/ascendancy-02.png") no-repeat center;
+}
+
+.ascendancy-03 {
+  background: url("../img/product/marketing/ascendancy-03.png") no-repeat center;
+}
+
+.ascendancy-04 {
+  background: url("../img/product/marketing/ascendancy-04.png") no-repeat center;
+}
+
+.ascendancy-05 {
+  background: url("../img/product/marketing/ascendancy-05.png") no-repeat center;
+}
+
+.ascendancy-06 {
+  background: url("../img/product/marketing/ascendancy-06.png") no-repeat center;
+}
+
+.ascendancy-ul li .icon {
+  display: table;
+  position: relative;
+  top: 190px;
+  margin: 0 auto;
+  width: 26px;
+  height: 26px;
+}
+
+.marketing-01 {
+  background: url("../img/product/marketing/marketing-01.png") no-repeat center;
+}
+
+.marketing-02 {
+  background: url("../img/product/marketing/marketing-02.png") no-repeat center;
+}
+
+.marketing-03 {
+  background: url("../img/product/marketing/marketing-03.png") no-repeat center;
+}
+
+.marketing-04 {
+  background: url("../img/product/marketing/marketing-04.png") no-repeat center;
+}
+
+.marketing-05 {
+  background: url("../img/product/marketing/marketing-05.png") no-repeat center;
+}
+
+.marketing-06 {
+  background: url("../img/product/marketing/marketing-06.png") no-repeat center;
+}
+
+.ascendancy-ul li h3 {
+  padding: 5px 0;
+  position: relative;
+  top: 195px;
+  font-size: 20px;
+  font-weight: normal;
+  text-align: center;
+  color: #666;
+}
+
+.ascendancy-ul li p {
+  padding: 0 35px;
+  position: relative;
+  top: 199px;
+  font-size: 16px;
+  text-align: left;
+  color: #666;
+}
+
+.blue-bg {
+  background: url("../img/product/marketing/blue_bg.png") no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 455px;
+}
+
+.white-text {
+  color: #fff;
+}
+
+.tool-ul {
+  padding: 50px 0;
+}
+
+.tool-ul li {
+  float: left;
+  width: 20%;
+}
+
+.tool-ul li h3 {
+  font-size: 20px;
+  font-weight: normal;
+  text-align: center;
+  color: #fff;
+}
+
+.tool-ul li .icon {
+  display: table;
+  margin: 0 auto;
+  width: 154px;
+  height: 154px;
+}
+
+.tool-01 {
+  background: url("../img/product/marketing/yd_tool_01.png") no-repeat center;
+}
+
+.tool-02 {
+  background: url("../img/product/marketing/yd_tool_02.png") no-repeat center;
+}
+
+.tool-03 {
+  background: url("../img/product/marketing/yd_tool_03.png") no-repeat center;
+}
+
+.tool-04 {
+  background: url("../img/product/marketing/yd_tool_04.png") no-repeat center;
+}
+
+.tool-05 {
+  background: url("../img/product/marketing/yd_tool_05.png") no-repeat center;
+}
+
+.marketing-flow-07 {
+  background: url("../img/product/marketing/yd_marketing_flow_07.png") no-repeat center;
+  background-size: cover;
+  width: 849px;
+  height: 511px;
+  margin: 50px auto;
+}
+
+.black-bg {
+  background: #232428;
+}
+
+.black-ul {
+  padding: 50px 0 60px 0;
+}
+
+.black-ul li {
+  float: left;
+  width: 25%;
+}
+
+.black-ul li h3 {
+  font-size: 20px;
+  font-weight: normal;
+  text-align: center;
+  color: #fff;
+  padding: 5px 0;
+}
+
+.black-ul li p {
+  font-size: 18px;
+  text-align: center;
+  color: #fff;
+}
+
+.black-ul li .icon {
+  display: table;
+  width: 54px;
+  height: 54px;
+  margin: 0 auto;
+}
+
+.black-01 {
+  background: url("../img/product/marketing/server_01.png") no-repeat center;
+}
+
+.black-02 {
+  background: url("../img/product/marketing/server_02.png") no-repeat center;
+}
+
+.black-03 {
+  background: url("../img/product/marketing/server_03.png") no-repeat center;
+}
+
+.black-04 {
+  background: url("../img/product/marketing/server_04.png") no-repeat center;
+}
+
+.marketing-foot {
+  background: url("../img/product/marketing/marketing-foot.png") no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 248px;
+}
+
+.marketing-foot h3 {
+  padding: 40px 0 20px 0;
+  font-size: 30px;
+  font-weight: normal;
+  text-align: center;
+  color: #fff;
+}
+
+.marketing-foot h2 {
+  font-size: 40px;
+  font-weight: normal;
+  text-align: center;
+  color: #fff;
+}
+
+.marketing-foot-btn {
+  display: block;
+  margin: 25px auto;
+  width: 243px;
+  height: 48px;
+  background: #0d7afb;
+  border-radius: 5px;
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+  line-height: 48px;
+}

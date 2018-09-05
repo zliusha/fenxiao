@@ -1,0 +1,30 @@
+// 打开chrome浏览器，按F12打开调试控制台，在Console一栏输入(或者把下面代码放入到html页面用js运行)
+// 假设服务端ip为127.0.0.1
+ws = new WebSocket("ws://121.41.177.151:30002");
+ws.onopen = function() {
+    alert("连接成功");
+    ws.send('tom');
+    alert("给服务端发送一个字符串：tom");
+};
+ws.onmessage = function(e) {
+    alert("收到服务端的消息：" + e.data);
+};
+
+//登录
+var out_data = '';
+ws = new WebSocket("ws://121.41.177.151:30002");
+//连接后登录
+ws.onopen = function() {
+    //登录
+    ws.send(out_data);
+};
+ws.onmessage = function(e) {
+    //{
+    // 
+    //}
+};
+
+//定时心跳
+$index = settimeout(10000,function(){
+    ws.send('peng');
+});

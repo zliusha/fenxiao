@@ -1,0 +1,269 @@
+.home-body {
+  position: relative;
+}
+
+.home-body-main {
+  padding-right: 320px;
+}
+
+.home-body-right {
+  position: absolute;
+  right: 0;
+  top: 56px;
+  width: 300px;
+}
+
+.home-module {
+  padding: 0 20px;
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+
+.home-module-title {
+  margin: 0;
+  padding: 20px 0 15px;
+  font-size: 14px;
+  color: #1F2D3D;
+}
+
+.home-data-list {
+  margin: 0 -20px;
+  overflow: hidden;
+}
+
+.home-data-item {
+  padding: 20px;
+  text-align: center;
+}
+
+.home-data-item+.home-data-item {
+  border-left: 1px solid #F2F6FC;
+}
+
+.home-data-num {
+  font-size: 24px;
+  font-weight: normal;
+  color: #1F2D3D;
+}
+
+.home-data-label {
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+.home-msg-title {
+  text-align: center;
+}
+
+.home-msg-list {
+  padding-left: 0;
+  margin-bottom: 20px;
+  list-style-type: none;
+}
+
+.home-msg-item {
+  padding: 0 10px;
+  height: 40px;
+  color: #fff;
+  line-height: 40px;
+  background-color: #333;
+}
+
+.home-msg-item .iconfont {
+  margin-right: 5px;
+}
+
+.home-msg-item:nth-child(2) {
+  background-color: #444;
+}
+
+.home-msg-item:nth-child(3) {
+  background-color: #555;
+}
+
+.home-msg-member .home-msg-item {
+  background-color: rgba(92, 179, 255, 1);
+}
+
+.home-msg-member .home-msg-item:nth-child(2) {
+  background-color: rgba(92, 179, 255, 0.84);
+}
+
+.home-msg-member .home-msg-item:nth-child(3) {
+  background-color: rgba(92, 179, 255, 0.64);
+}
+
+.home-msg-msg .home-msg-item {
+  background-color: rgba(254, 139, 37, 1);
+}
+
+.home-msg-msg .home-msg-item:nth-child(2) {
+  background-color: rgba(254, 139, 37, 0.84);
+}
+
+.home-msg-msg .home-msg-item:nth-child(3) {
+  background-color: rgba(254, 139, 37, 0.64);
+}
+
+.home-msg-hd .home-msg-item {
+  background-color: rgba(73, 204, 147, 1);
+}
+
+.home-msg-hd .home-msg-item:nth-child(2) {
+  background-color: rgba(73, 204, 147, 0.84);
+}
+
+.home-msg-hd .home-msg-item:nth-child(3) {
+  background-color: rgba(73, 204, 147, 0.64);
+}
+
+.home-func-list {
+  overflow: hidden;
+}
+
+.home-func-item {
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  padding: 12px 10px 14px 6px;
+  color: #465669;
+  border: 1px solid #DCDFE6;
+  border-radius: 5px;
+}
+
+.home-func-item .iconfont {
+  color: #5CB3FF;
+  margin-right: 5px;
+}
+
+.home-service-item {
+  display: block;
+  height: 120px;
+  padding-top: 40px;
+  margin-bottom: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+.home-service-item:hover,
+.home-service-item:focus,
+.home-service-item:active {
+  color: #fff;
+}
+
+.home-service-erp {
+  background-color: #97CEFF;
+}
+
+.home-service-sy {
+  background-color: #FF93A0;
+}
+
+.home-service-xcx {
+  background-color: #8BDFBA;
+}
+
+.home-service-more {
+  background-color: #FFB574;
+}
+
+.home-service-name {
+  font-size: 16px;
+  margin-bottom: 6px;
+}
+
+.home-service-desc {
+  margin-bottom: 0;
+}
+
+.user-info {
+  position: relative;
+  padding: 20px;
+  margin: 0 -20px;
+  overflow: hidden;
+}
+
+.user-avatar {
+  float: left;
+  width: 48px;
+  height: 48px;
+  margin-right: 15px;
+  border-radius: 48px;
+}
+
+.kf-avatar {
+  float: left;
+  width: 24px;
+  height: 30px;
+  margin-right: 12px;
+}
+
+.user-nick {
+  color: #1F2D3D;
+  margin-top: 3px;
+  margin-bottom: 5px;
+}
+
+.user-desc {
+  font-size: 12px;
+  color: #98A9BF;
+  margin-bottom: 0;
+}
+
+.user-label {
+  position: absolute;
+  top: 20px;
+  right: 15px;
+}
+
+.user-account {
+  margin: 0 -20px;
+  padding: 15px 20px;
+  border-top: 1px solid #EBEEF5;
+}
+
+.home-action-item {
+  padding: 10px 0;
+  text-align: center;
+}
+
+.home-action-item .iconfont {
+  font-size: 20px;
+}
+
+.home-action-label {
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+.home-order-item {
+  margin-bottom: 16px;
+  padding: 10px 15px;
+  border: 1px solid #E4E7ED;
+  border-left: 4px solid #5CB3FF;
+  overflow: hidden;
+}
+
+.home-coupon-item {
+  padding: 16px 0 20px;
+  text-align: center;
+  background-color: #F8F8F8;
+}
+
+.home-coupon-item .iconfont {
+  font-size: 40px;
+}
+
+.home-coupon-pic {
+  width: 50px;
+  height: 50px;
+}
+
+.home-coupon-label {
+  margin: 10px 0;
+}
+
+.home-coupon-num {
+  margin: 0;
+  font-size: 16px;
+}

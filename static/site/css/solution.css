@@ -1,0 +1,589 @@
+.warp-container .item-container .item:before {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.card-3-b {
+  border: 1px solid #c5c5c5;
+  width: 32.3%;
+  box-sizing: border-box;
+  float: left;
+  position: relative;
+}
+
+.card-3-b:nth-child(2) {
+  margin: 0 1.5%;
+}
+
+.card-4-b {
+  border: 1px solid #c5c5c5;
+  width: 24%;
+  box-sizing: border-box;
+  float: left;
+  position: relative;
+  margin-left: 1%;
+}
+
+.card-4-b:first-child {
+  margin-left: 0;
+}
+
+.btn {
+  color: #fff;
+  font-size: 18px;
+  font-weight: normal;
+  margin-bottom: 0;
+  cursor: pointer;
+  display: block;
+  width: 30%;
+  padding: 13px 18px;
+  text-align: center;
+  margin: auto;
+}
+
+.card-1 {
+  margin-bottom: 50px;
+}
+
+.card-1:last-child {
+  margin-bottom: 0;
+}
+
+.card-2 {
+  width: 50%;
+  box-sizing: border-box;
+  float: left;
+}
+
+.card-3 {
+  width: 33.3%;
+  box-sizing: border-box;
+  float: left;
+}
+
+.card-4 {
+  width: 25%;
+  box-sizing: border-box;
+  float: left;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.card-5 {
+  width: 20%;
+  box-sizing: border-box;
+  float: left;
+  position: relative;
+}
+
+.card-6 {
+  width: 16.66%;
+  box-sizing: border-box;
+  float: left;
+  position: relative;
+}
+
+.card-8 {
+  width: 12.5%;
+  box-sizing: border-box;
+  float: left;
+  margin-bottom: 25px;
+}
+
+.clear:before,
+.partner:before,
+.card-container:before,
+.clear:after,
+.partner:after,
+.card-container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.response-img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.mark {
+  color: #169EF4 !important;
+}
+
+.hr {
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: #D2D2D2;
+  margin: 25px 0;
+}
+
+.warp-container {
+  height: 586px;
+  overflow: hidden;
+}
+
+.warp-container .container {
+  padding: 60px 0;
+  height: 466px;
+}
+
+.warp-container .card-2-spe {
+  width: 70%;
+  box-sizing: border-box;
+  float: left;
+  position: relative;
+  padding-right: 30px;
+}
+
+.warp-container .card-2-spe:last-child {
+  width: 30%;
+  box-sizing: border-box;
+  float: left;
+}
+
+.warp-container .item-title-container {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.warp-container .item-title-container .item-title {
+  color: #000;
+  font-size: 20px;
+  font-weight: normal;
+  margin-bottom: 0;
+  display: inline-block;
+}
+
+.warp-container .item-title-container .item-more {
+  color: #FFA830;
+  font-size: 16px;
+  font-weight: normal;
+  margin-bottom: 0;
+  cursor: pointer;
+  float: right;
+}
+
+.warp-container .item-container .item {
+  color: #6C6C6C;
+  font-size: 14px;
+  font-weight: normal;
+  margin-bottom: 0;
+  position: relative;
+  display: block;
+  margin: 0 0 20px 20px;
+}
+
+.warp-container .item-container .item:before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  background: #FFA830;
+  left: -20px;
+}
+
+.warp-container .item-btn-container {
+  padding-top: 20px;
+}
+
+.warp-container .item-btn-container .card-3-spe {
+  width: 30%;
+  box-sizing: border-box;
+  float: left;
+  color: #fff;
+  font-size: 18px;
+  font-weight: normal;
+  margin-bottom: 0;
+  background: #FFA830;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+}
+
+.warp-container .item-btn-container .card-3-spe:nth-child(2) {
+  margin: 0 5%;
+}
+
+.swiper-container-1 {
+  width: 100%;
+  height: 577px;
+}
+
+.down-icon {
+  color: #9e9e9e;
+  font-size: 12px;
+  font-weight: normal;
+  margin-bottom: 0;
+}
+
+.down-icon .footer-container {
+  width: 1000px;
+}
+
+.down-icon a {
+  color: #666;
+}
+
+.down-icon a:hover {
+  color: #666;
+  text-decoration: none;
+}
+
+.down-icon .item {
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.banner {
+  position: relative;
+  background: url("../img/solution/waimai-banner.png") no-repeat center center;
+  background-size: cover;
+  height: 550px;
+}
+
+.banner .banner-container {
+  position: absolute;
+  top: 25%;
+  left: 20%;
+}
+
+.banner .banner-container .title {
+  color: #fff;
+  font-size: 47px;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
+.banner .banner-container .title-bar {
+  color: #fff;
+  font-size: 45px;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
+.banner .banner-container .title-txt {
+  color: #fff;
+  font-size: 24px;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
+.banner .banner-container .title-btn {
+  background: url("../img/solution/waimai-banner-btn.png") no-repeat center center;
+  background-size: contain;
+  padding: 10px 18px 18px;
+  margin-left: 0;
+}
+
+.agent-container-1 .container {
+  padding-bottom: 0;
+}
+
+.agent-container-1 .card-container .title {
+  padding: 30px 0;
+  margin-bottom: 0;
+}
+
+.agent-container-1 .card-4.spe {
+  top: 45px;
+}
+
+.agent-container-3 .btn-bottom {
+  background: #35B0FE;
+  width: 260px;
+  margin: 65px auto 40px;
+}
+
+.agent-container-4 .card-container .card-title {
+  font-size: 18px;
+}
+
+.agent-container-4 .card-container .card-title-spe {
+  color: #2B62FF;
+  font-size: 18px;
+  font-weight: normal;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.agent-container-4 .card-container .txt {
+  color: #666;
+  font-size: 14px;
+  font-weight: normal;
+  margin-bottom: 35px;
+  text-align: left;
+  line-height: 1.8;
+}
+
+.agent-container-4 .card-3-spe {
+  box-sizing: border-box;
+  border: 1px solid #D2D2D2;
+  border-top: 2px solid #35B0FE;
+  padding: 25px 35px;
+  width: 330px;
+  height: 465px;
+  overflow: hidden;
+}
+
+.agent-container-4 .card-3-spe:nth-child(3) {
+  margin: auto;
+}
+
+.agent-container-5 {
+  margin-bottom: 20px;
+}
+
+.agent-container-5 .container {
+  border: 1px solid #D2D2D2;
+  border-top: 2px solid #35B0FE;
+}
+
+.agent-container-5 .card-5 {
+  padding: 20px 15px;
+}
+
+.agent-container-5 .card-container .card-title {
+  color: #2B62FF;
+  font-size: 18px;
+  font-weight: normal;
+  margin-bottom: 15px;
+}
+
+.agent-container-5 .card-container .txt {
+  color: #666;
+  font-size: 14px;
+  font-weight: normal;
+  margin-bottom: 35px;
+}
+
+.agent-container-6 {
+  background: url("../img/solution/waimai-part06-bg.png") no-repeat center center;
+  background-size: cover;
+  height: 850px;
+  position: relative;
+}
+
+.agent-container-6 .title {
+  color: #fff !important;
+}
+
+.agent-container-6 .container-6 {
+  width: 100%;
+  position: absolute;
+  bottom: 120px;
+}
+
+.agent-container-6 .btn {
+  background: #fff;
+  color: #345BED;
+  width: 180px;
+}
+
+.container {
+  margin: auto;
+  padding: 10px 0 40px;
+  width: 1200px;
+}
+
+.title-container {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.title-container .title {
+  color: #333;
+  font-size: 24px;
+  font-weight: normal;
+  margin-bottom: 15px;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+}
+
+.title-container .title-bar {
+  color: #6C6C6C;
+  font-size: 16px;
+  font-weight: normal;
+  margin-bottom: 0;
+}
+
+.card-container .card-title {
+  color: #333;
+  font-size: 20px;
+  font-weight: normal;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.card-container .card-title-bar {
+  color: #666;
+  font-size: 16px;
+  font-weight: normal;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.card-container .txt {
+  color: #8F8F8F;
+  font-size: 16px;
+  font-weight: normal;
+  margin-bottom: 0;
+  text-align: left;
+}
+
+.card-container-1 .content {
+  background: #1B1B1B;
+  box-sizing: border-box;
+  height: 280px;
+  position: absolute;
+  top: 26px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  padding: 100px 13px 0;
+}
+
+.card-container-1 .content .card-title {
+  color: #169EF4;
+  font-size: 16px;
+  font-weight: normal;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.card-container-1 .content-1 {
+  width: 284px;
+}
+
+.card-container-1 .content-2 {
+  width: 277px;
+}
+
+.card-container-1 .content-3 {
+  width: 287px;
+}
+
+.card-container-1 .content-4 {
+  width: 288px;
+}
+
+.card-container-1 .icon {
+  display: block;
+  height: 306px;
+  width: 100%;
+  margin: auto;
+}
+
+.card-container-1 .icon-1 {
+  background: url("../img/solution/waimai-part01-icon1.png") no-repeat center center;
+  background-size: contain;
+}
+
+.card-container-1 .icon-2 {
+  background: url("../img/solution/waimai-part01-icon2.png") no-repeat center center;
+  background-size: contain;
+}
+
+.card-container-1 .icon-3 {
+  background: url("../img/solution/waimai-part01-icon3.png") no-repeat center center;
+  background-size: contain;
+}
+
+.card-container-1 .icon-4 {
+  background: url("../img/solution/waimai-part01-icon4.png") no-repeat center center;
+  background-size: contain;
+}
+
+.card-container-2 .icon {
+  display: block;
+  height: 141px;
+  width: 133px;
+  margin: auto;
+  margin-bottom: 33px;
+}
+
+.card-container-2 .icon-1 {
+  background: url("../img/solution/waimai-part02-icon1.png") no-repeat center center;
+  background-size: contain;
+}
+
+.card-container-2 .icon-2 {
+  background: url("../img/solution/waimai-part02-icon2.png") no-repeat center center;
+  background-size: contain;
+}
+
+.card-container-2 .icon-3 {
+  background: url("../img/solution/waimai-part02-icon3.png") no-repeat center center;
+  background-size: contain;
+}
+
+.card-container-2 .icon-4 {
+  background: url("../img/solution/waimai-part02-icon4.png") no-repeat center center;
+  background-size: contain;
+}
+
+.card-container-2 .icon-5 {
+  background: url("../img/solution/waimai-part02-icon5.png") no-repeat center center;
+  background-size: contain;
+}
+
+.card-container-3 {
+  margin: auto;
+  width: 800px;
+}
+
+.card-container-3 .btn-top {
+  background: #F57A7A;
+  width: 140px;
+  margin-top: 15px;
+}
+
+.card-container-3 .card-box-item {
+  color: #2D63FF;
+  display: block;
+  margin: auto;
+  width: 70%;
+  border: 1px solid #D2D2D2;
+  padding: 13px 0;
+  text-align: center;
+}
+
+.card-container-5 {
+  padding-bottom: 0;
+}
+
+.card-container-5 .icon {
+  display: block;
+  height: 40px;
+  width: 45px;
+  margin: auto;
+  margin: 30px auto;
+}
+
+.card-container-5 .icon-1 {
+  background: url("../img/solution/waimai-part05-icon1.png") no-repeat center center;
+  background-size: contain;
+}
+
+.card-container-5 .icon-2 {
+  background: url("../img/solution/waimai-part05-icon2.png") no-repeat center center;
+  background-size: contain;
+}
+
+.card-container-5 .icon-3 {
+  background: url("../img/solution/waimai-part05-icon3.png") no-repeat center center;
+  background-size: contain;
+}
+
+.card-container-5 .icon-4 {
+  background: url("../img/solution/waimai-part05-icon4.png") no-repeat center center;
+  background-size: contain;
+}
+
+.card-container-5 .icon-5 {
+  background: url("../img/solution/waimai-part05-icon5.png") no-repeat center center;
+  background-size: contain;
+}

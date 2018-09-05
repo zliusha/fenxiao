@@ -1,0 +1,29 @@
+{
+    "name": "wadao/wxc",
+    "description": "yet another weixin mall.",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "JH-W",
+            "email": "wangj4543@163.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "qiniu/qiniu": "*",
+        "qiniu/php-sdk": "7.1.3",
+        "picqer/php-barcode-generator": "0.2.1",
+        "phpoffice/phpexcel": "1.8.1",
+        "workerman/workerman": "v3.5.4",
+        "kosinix/grafika":"2.0.8",
+        "guzzlehttp/guzzle": "~6.2.1",
+        "gregwar/captcha": "1.1.6"
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    }
+}

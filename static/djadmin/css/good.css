@@ -1,0 +1,146 @@
+.m-upload-good-card {
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+}
+
+.logo-list {
+  padding: 0;
+}
+
+.logo-item {
+  margin-right: 20px;
+  position: relative;
+}
+
+.logo-item .btn-delete {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  z-index: 99;
+  display: none;
+}
+
+#logoTbody {
+  display: inline-block;
+}
+
+.m-upload>.upload-pic {
+  top: 0;
+  vertical-align: top;
+}
+
+.m-upload>.upload-input,
+.m-upload>.upload-pic {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.logo-item:hover .btn-delete {
+  display: block;
+}
+
+.imageBox {
+  position: relative;
+  height: 300px;
+  width: 300px;
+  background: #fff;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  cursor: move;
+  display: inline-block;
+}
+
+.imageBox .thumbBox {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 200px;
+  height: 200px;
+  margin-top: -100px;
+  margin-left: -100px;
+  box-sizing: border-box;
+  border: 1px solid #e8e8e8;
+  box-shadow: 0 0 0 1000px rgba(255, 255, 255, 0.5);
+  background: none repeat scroll 0% 0% transparent;
+}
+
+.image-footer .btn+.btn {
+  margin-left: 5px;
+  margin-bottom: 0;
+  font-size: 20px;
+  padding: 4px 16px;
+}
+
+.tooltip.in {
+  opacity: 0
+}
+
+.slider-selection {
+  background-image: linear-gradient(to bottom, #59a2e7 0, #59a2e7 100%) !important;
+}
+
+.slider-handle {
+  background: url(../img/spot.png) no-repeat !important;
+  background-size: cover !important;
+}
+
+.w180 {
+  width: 180px !important;
+}
+
+.w90 {
+  width: 90px !important;
+}
+
+.w70 {
+  width: 70px !important;
+}
+
+.count-weight {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 10px;
+}
+
+.btn-prop {
+  border: 1px solid #bfc8d9;
+  padding: 0 8px;
+  line-height: 34px;
+  font-size: 30px;
+  margin-left: 10px;
+}
+
+.label {
+  color: #475669;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.label-large {
+  padding: 6px 8px;
+  font-size: 14px;
+}
+
+.cate-label.active {
+  border: 1px solid #5aa2e7;
+  color: #5aa2e7;
+}
+
+.cate-label {
+  float: left;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.table {
+  margin-bottom: 0;
+}
+
+.u-radio input[type=radio] {
+  width: 16px;
+  height: 16px;
+}

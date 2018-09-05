@@ -1,0 +1,466 @@
+.warp-container .item-container .item:before {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.card-3-b {
+  border: 1px solid #c5c5c5;
+  width: 32.3%;
+  box-sizing: border-box;
+  float: left;
+  position: relative;
+}
+
+.card-3-b:nth-child(2) {
+  margin: 0 1.5%;
+}
+
+.card-4-b {
+  border: 1px solid #c5c5c5;
+  width: 24%;
+  box-sizing: border-box;
+  float: left;
+  position: relative;
+  margin-left: 1%;
+}
+
+.card-4-b:first-child {
+  margin-left: 0;
+}
+
+.btn {
+  color: #fff;
+  font-size: 18px;
+  font-weight: normal;
+  margin-bottom: 0;
+  cursor: pointer;
+  display: block;
+  width: 30%;
+  padding: 13px 18px;
+  text-align: center;
+  margin: auto;
+}
+
+.card-1 {
+  margin-bottom: 50px;
+}
+
+.card-1:last-child {
+  margin-bottom: 0;
+}
+
+.card-2 {
+  width: 50%;
+  box-sizing: border-box;
+  float: left;
+}
+
+.card-3 {
+  width: 33.3%;
+  box-sizing: border-box;
+  float: left;
+}
+
+.card-4 {
+  width: 25%;
+  box-sizing: border-box;
+  float: left;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.card-5 {
+  width: 20%;
+  box-sizing: border-box;
+  float: left;
+  position: relative;
+}
+
+.card-6 {
+  width: 16.66%;
+  box-sizing: border-box;
+  float: left;
+  position: relative;
+}
+
+.card-8 {
+  width: 12.5%;
+  box-sizing: border-box;
+  float: left;
+  margin-bottom: 25px;
+}
+
+.clear:before,
+.partner:before,
+.clear:after,
+.partner:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.response-img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.mark {
+  color: #169EF4 !important;
+}
+
+.hr {
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: #D2D2D2;
+  margin: 25px 0;
+}
+
+.warp-container {
+  height: 586px;
+  overflow: hidden;
+}
+
+.warp-container .container {
+  padding: 60px 0;
+  height: 466px;
+}
+
+.warp-container .card-2-spe {
+  width: 70%;
+  box-sizing: border-box;
+  float: left;
+  position: relative;
+  padding-right: 30px;
+}
+
+.warp-container .card-2-spe:last-child {
+  width: 30%;
+  box-sizing: border-box;
+  float: left;
+}
+
+.warp-container .item-title-container {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.warp-container .item-title-container .item-title {
+  color: #000;
+  font-size: 20px;
+  font-weight: normal;
+  margin-bottom: 0;
+  display: inline-block;
+}
+
+.warp-container .item-title-container .item-more {
+  color: #FFA830;
+  font-size: 16px;
+  font-weight: normal;
+  margin-bottom: 0;
+  cursor: pointer;
+  float: right;
+}
+
+.warp-container .item-container .item {
+  color: #6C6C6C;
+  font-size: 14px;
+  font-weight: normal;
+  margin-bottom: 0;
+  position: relative;
+  display: block;
+  margin: 0 0 20px 20px;
+}
+
+.warp-container .item-container .item:before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  background: #FFA830;
+  left: -20px;
+}
+
+.warp-container .item-btn-container {
+  padding-top: 20px;
+}
+
+.warp-container .item-btn-container .card-3-spe {
+  width: 30%;
+  box-sizing: border-box;
+  float: left;
+  color: #fff;
+  font-size: 18px;
+  font-weight: normal;
+  margin-bottom: 0;
+  background: #FFA830;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+}
+
+.warp-container .item-btn-container .card-3-spe:nth-child(2) {
+  margin: 0 5%;
+}
+
+.swiper-container-1 {
+  width: 100%;
+  height: 577px;
+}
+
+.down-icon {
+  color: #9e9e9e;
+  font-size: 12px;
+  font-weight: normal;
+  margin-bottom: 0;
+}
+
+.down-icon .footer-container {
+  width: 1000px;
+}
+
+.down-icon a {
+  color: #666;
+}
+
+.down-icon a:hover {
+  color: #666;
+  text-decoration: none;
+}
+
+.down-icon .item {
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.cashier-banner {
+  display: table;
+  background: url("../img/product/cashier/banner1.png") no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 670px;
+}
+
+.cashier-banner-text {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.cashier-banner-text h2 {
+  font-size: 57px;
+  font-weight: normal;
+  color: #fff;
+  text-align: center;
+}
+
+.cashier-banner-text h3 {
+  padding-top: 10px;
+  font-size: 36px;
+  font-weight: normal;
+  color: #fff;
+}
+
+.cashier-banner-text span {
+  font-size: 48px;
+  color: #fff;
+}
+
+.cashier-banner-btn {
+  display: block;
+  width: 336px;
+  height: 63px;
+  background: #3d8dfa;
+  border-radius: 10px;
+  margin: 50px auto 0;
+  font-size: 30px;
+  line-height: 63px;
+  text-align: center;
+  color: #fff;
+}
+
+.cashier-qr-box {
+  width: 560px;
+  margin: 60px auto 0;
+  overflow: hidden;
+}
+
+.cashier-qr-item {
+  width: 280px;
+  float: left;
+  text-align: center;
+}
+
+.cashier-qr-pic {
+  width: 137px;
+  height: 137px;
+}
+
+.cashier-qr-name {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #3d8dfa;
+}
+
+.cashier-content {
+  display: block;
+  position: relative;
+}
+
+.cashier-width1200 {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.cashier-block {
+  display: block;
+  position: relative;
+}
+
+.cashier-title {
+  padding: 70px 0 30px 0;
+  font-size: 25px;
+  font-weight: normal;
+  text-align: center;
+  color: #333;
+}
+
+.cashier-line {
+  width: 78px;
+  height: 2px;
+  background: #169EF4;
+  margin: 0 auto;
+}
+
+.cashier-ul {
+  padding: 50px 0 70px 0;
+}
+
+.cashier-ul:before,
+.cashier-ul:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.cashier-ul li {
+  float: left;
+  width: 25%;
+  margin: 0 auto;
+}
+
+.cashier-ul li h3 {
+  position: relative;
+  top: 150px;
+  font-size: 25px;
+  font-weight: normal;
+  text-align: center;
+  color: #333;
+}
+
+.cashier-ul li P {
+  position: relative;
+  top: 160px;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #666;
+}
+
+.cashier-ul li .icon {
+  display: block;
+  width: 272px;
+  height: 268px;
+  margin: 0 auto;
+}
+
+.cashier-01 {
+  background: url("../img/product/cashier/cashier_01.png") no-repeat center;
+}
+
+.cashier-02 {
+  background: url("../img/product/cashier/cashier_02.png") no-repeat center;
+}
+
+.cashier-03 {
+  background: url("../img/product/cashier/cashier_03.png") no-repeat center;
+}
+
+.cashier-04 {
+  background: url("../img/product/cashier/cashier_04.png") no-repeat center;
+}
+
+.cashier-systems-block {
+  display: block;
+  position: relative;
+  background: #F7F7F7;
+}
+
+.cashier-flow-img {
+  background: url("../img/product/cashier/cashier_flow_img.png") no-repeat center;
+  background-size: cover;
+  width: 1017px;
+  height: 515px;
+  margin: 0px auto 50px;
+}
+
+.blue-text {
+  padding: 50px 0 20px 0;
+  font-size: 30px;
+  text-align: center;
+  color: #0395EA;
+}
+
+.cashier-fun-img {
+  display: block;
+  position: relative;
+  background: url("../img/product/cashier/cashier_fun_img.png") no-repeat center;
+  background-size: cover;
+  width: 1197px;
+  height: 307px;
+  margin: 0 auto 30px;
+}
+
+.cashier-fun-img p {
+  display: inline-block;
+  width: 180px;
+  font-size: 16px;
+  text-align: center;
+  color: #666;
+  margin: 182px auto 0;
+  padding: 0px 28px;
+}
+
+.cashier-manger-block {
+  display: block;
+  position: relative;
+  margin-bottom: 70px;
+}
+
+.cashier-manger-block p {
+  font-size: 26px;
+  text-align: center;
+  color: #fff;
+  line-height: 48px;
+  margin-top: 265px;
+}
+
+.cashier-l {
+  display: inline-block;
+  background: url("../img/product/cashier/cashier_manger_l.png") no-repeat center;
+  background-size: cover;
+  width: 401px;
+  height: 412px;
+  margin: 0px 40px 0 153px;
+}
+
+.cashier-r {
+  display: inline-block;
+  background: url("../img/product/cashier/cashier_manger_r.png") no-repeat center;
+  background-size: cover;
+  width: 401px;
+  height: 412px;
+  margin: 0 20px 0 40px;
+}

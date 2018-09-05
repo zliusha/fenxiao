@@ -1,0 +1,107 @@
+/**
+ * statistics css
+ * by liangya
+ * date: 2017-11-22
+ */
+
+.w-flow-data {
+  position: relative;
+}
+
+.w-flow-left {
+  position: relative;
+  z-index: 9;
+  height: 257px;
+  margin-right: 552px;
+  background: url("../img/flow-bg.jpg") repeat-x top left;
+}
+
+.w-flow-right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 552px;
+  height: 257px;
+  background: url("../img/flow-funnel-pic.png") no-repeat top left;
+}
+
+.w-flow-block {
+  height: 86px;
+  padding: 7px 20px;
+  margin-right: -250px;
+  overflow: hidden;
+}
+
+.w-flow-item {
+  display: inline-block;
+  width: 146px;
+}
+
+.w-flow-item p {
+  margin-bottom: 0;
+  line-height: 24px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.w-flow-item .icon-up,
+.table .icon-up {
+  margin-top: -5px;
+}
+
+.w-data-order {
+  height: 201px;
+  padding: 30px 20px;
+  margin-top: -20px;
+  font-size: 14px;
+  color: #475669;
+  background-color: #fbfdff;
+  border: 1px dashed #c0ccda;
+  border-top: none;
+}
+
+.w-data-order p {
+  margin-bottom: 0;
+}
+
+.w-data-order-item {
+  float: left;
+  width: 20%;
+  padding-left: 15px;
+  border-left: 5px solid #eee;
+}
+
+.w-data-order-item p+p {
+  margin-top: 10px;
+}
+
+.w-data-order-breakfast {
+  border-color: #f96768;
+}
+
+.w-data-order-lunch {
+  border-color: #ffb465;
+}
+
+.w-data-order-afternoon-tea {
+  border-color: #45be89;
+}
+
+.w-data-order-dinner {
+  border-color: #59a2e7;
+}
+
+.w-data-order-supper {
+  border-color: #c46fff;
+}
+
+.good-progress {
+  display: inline-block;
+  width: 240px;
+  margin-top: -3px;
+  margin-right: 10px;
+  margin-bottom: 0;
+  vertical-align: middle;
+}
+

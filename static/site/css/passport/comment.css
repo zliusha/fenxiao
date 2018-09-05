@@ -1,0 +1,1002 @@
+@font-face {
+	font-family: 'iconfont';
+	src: url('//at.alicdn.com/t/font_1444458810_7701225.eot');
+	/* IE9*/
+	src: url('//at.alicdn.com/t/font_1444458810_7701225.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('//at.alicdn.com/t/font_1444458810_7701225.woff') format('woff'), /* chromeã€firefox */
+	url('//at.alicdn.com/t/font_1444458810_7701225.ttf') format('truetype'), /* chromeã€firefoxã€operaã€Safari, Android, iOS 4.2+*/
+	url('//at.alicdn.com/t/font_1444458810_7701225.svg#iconfont') format('svg');
+	/* iOS 4.1- */
+}
+
+.iconfont {
+	font-family: "iconfont";
+	font-size: 28px;
+	font-style: normal;
+}
+
+
+/*å…¨å±€å®šä¹‰ www.afeidy.com-2013-05-03*/
+
+html,
+body {
+	font-size: 12px;
+	font-family: å¾®è½¯é›…é»‘;
+	color: #444;
+	background: #fff;
+	line-height: 18px;
+	padding: 0px;
+	margin: 0px;
+	padding: 0;
+	width: 100%;
+}
+
+
+/*input {
+        font:10pt Verdana,Arial,Helvetica,sans-serif,"å¾®è½¯é›…é»‘";
+}*/
+
+select {
+	border: 1px solid #D6D6D6;
+	border-radius: 1px;
+	height: 24px;
+	line-height: 24px;
+	min-width: 72px;
+}
+
+
+/*input.str_2{ line-height:26px;}*/
+
+.str_2 {
+	background: url(img/btn_min.png) 0 0 no-repeat;
+	height: 26px;
+	width: 66px;
+	border: none;
+	cursor: pointer;
+}
+
+.str_6 {
+	background: url(img/btn_min_long.png) 0 0 no-repeat;
+	height: 26px;
+	width: 86px;
+	border: none;
+	cursor: pointer;
+}
+
+
+/*input[type='text']{color:#999; height:24px; padding-left:2px; padding-right:2px; line-height:24px;}*/
+
+img {
+	border: none;
+	vertical-align: middle;
+}
+
+img:focus {
+	border: none;
+}
+
+p,
+ul,
+ol,
+li,
+form,
+dd,
+dl,
+dt {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+select,
+p,
+blockquote,
+th,
+td {
+	margin: 0;
+	padding: 0;
+}
+
+input,
+button {
+	outline: none;
+	font-family: å¾®è½¯é›…é»‘;
+}
+
+a {
+	color: #373737;
+	text-decoration: none;
+	outline: 0 none;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.m_yahei {
+	font-family: Helvetica, arial, STheiti, â€œmicrosoft yaheiâ€, sans-serif;
+}
+
+.header {
+	width: 100%;
+	color: #fff;
+	font-size: 12px;
+	position: absolute;
+	top: 0px;
+	left: 0;
+	z-index: 20;
+	height: 68px;
+}
+
+.main_menu {
+	position: relative;
+	width: 1000px;
+	margin: 0 auto;
+	font-size: 14px;
+	border-size: border-box;
+	-webkit-border-size: border-box;
+	-moz-border-size: border-box;
+	-o-border-size: border-box;
+	-ms-border-size: border-box;
+}
+
+.suo-main-menu {
+	width: 1200px;
+}
+
+.logo {
+	width: 30px;
+	text-align: left;
+	border-size: border-box;
+	-webkit-border-size: border-box;
+	-moz-border-size: border-box;
+	-o-border-size: border-box;
+	-ms-border-size: border-box;
+}
+
+.suo-logo {
+	width: 160px;
+}
+
+.inline_block {
+	display: inline-block;
+}
+
+.logo a.dsb_logo {
+	display: block;
+	margin: 0 auto;
+	height: 40px;
+	width: 160px;
+}
+
+img {
+	border: none;
+	vertical-align: middle;
+}
+
+.suo-container {
+	display: inline-block;
+	vertical-align: sub;
+}
+
+.suo-container .suo-icon {
+	display: inline-block;
+	position: relative;
+	top: 10px;
+	background: url("../../img/passport/suo-login-man.png") no-repeat center;
+	background-size: cover;
+	width: 30px;
+	height: 30px;
+}
+
+.suo-line {
+	background: #169EF3;
+	display: inline-block;
+	height: 33px;
+	position: relative;
+	margin: 0 24px;
+	top: 15px;
+	width: 1px;
+}
+
+.suo-container .suo-login {
+	color: #169EF3;
+	font-size: 18px;
+	margin-left: 5px;
+	position: relative;
+	top: 8px;
+}
+
+
+/*header*/
+
+.body {
+	position: absolute;
+}
+
+.body.first {
+	display: block;
+}
+
+#body_0,
+#body_1,
+#body_3,
+#body_5,
+#body_7 {
+	background: #fafafa;
+	width: 100%;
+	height: 100%;
+}
+
+#body_0 {
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	background: url("../../img/passport/wm_login_bg.jpg") no-repeat center;
+	height: 800px;
+	position: relative;
+}
+
+#body_0 .bg {
+	background: url("../../img/passport/wm_login_bg.jpg") no-repeat center bottom;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+
+#body_1 {
+	background: #747ba0;
+}
+
+.con_div {
+	width: 1000px;
+	height: 475px;
+	margin: 0 auto;
+}
+
+.accueil_page .shortcut_load {
+	margin-top: 30px;
+	position: relative;
+}
+
+.accueil_page .shortcut_load .load_box {
+	width: 400px;
+	height: 49px
+}
+
+.accueil_page .shortcut_load .load_box .short_submenu li {
+	float: left;
+	list-style: none
+}
+
+.accueil_page .shortcut_load .load_box .load_write {
+	background-color: rgba(13, 129, 224, .9);
+	line-height: 49px;
+	text-align: center;
+	width: 150px;
+	color: #fff;
+	font-size: 16px
+}
+
+.accueil_page .shortcut_load #triangle_shape .shortcut_load #triangle_shape {
+	width: 100px;
+	height: 100px;
+	border: 2px #000 solid;
+	background-color: #fff;
+	position: relative
+}
+
+.accueil_page .shortcut_load #triangle_shape:after,
+.shortcut_load #triangle_shape:before {
+	width: 0;
+	height: 0;
+	border: transparent solid;
+	position: absolute;
+	left: 100%;
+	content: ""
+}
+
+.accueil_page .shortcut_load #triangle_shape:before {
+	border-left-color: rgba(13, 129, 224, 1);
+	border-width: 9px;
+	left: 148px;
+	top: 18px
+}
+
+.accueil_page .shortcut_load #triangle_shape:after {
+	border-left-color: rgba(13, 129, 224, 1);
+	border-width: 8px;
+	left: 148px;
+	top: 18px
+}
+
+.accueil_page .shortcut_load .load_box .load_btn {
+	background-color: rgba(31, 144, 237, .9);
+	width: 82px;
+	border-right: 1px dotted #0767d9
+}
+
+.accueil_page .shortcut_load .load_box .load_btn .wang_btn {
+	background: transparent url(img/pic_wang.png) no-repeat scroll center center;
+	display: block;
+	height: 49px
+}
+
+.accueil_page .shortcut_load .load_box .load_btn .qq_btn {
+	background: transparent url(img/pic_qq.png) no-repeat scroll center center;
+	display: block;
+	height: 49px
+}
+
+.accueil_page .shortcut_load .load_box .load_btn .weixin_btn {
+	background: transparent url(img/pic_weixin.png) no-repeat scroll center center;
+	display: block;
+	height: 49px
+}
+
+.accueil_page .accueil_box .change_surface {
+	font-size: 0;
+	position: relative;
+	margin-top: 10px;
+}
+
+.accueil_page .accueil_box .change_surface .change_btn {
+	height: 33px;
+	width: 49%;
+	color: #999;
+	font-size: 16px;
+	border: none;
+	display: inline-block;
+	background: rgba(67, 131, 197, 0);
+	border-bottom: 1px solid #00a0e9;
+	box-sizing: border-box;
+}
+
+.accueil_page .accueil_box .change_surface .change_btn.active {
+	border-bottom: 2px solid #00a0e9;
+	height: 33px;
+	color: #333;
+}
+
+.register_box.ie_style .change_btn {
+	border: 1px solid #92b0d1;
+}
+
+.accueil_page .suo-accueil-box {
+	left: 58%;
+	top: 44%;
+}
+
+.accueil_page .accueil_box {
+	left: 50%;
+	height: 440px;
+	margin-top: -240px;
+	position: absolute;
+	top: 50%;
+}
+
+.accueil_page .accueil_box {
+	width: 980px;
+	position: absolute;
+	left: 56%;
+	margin-left: -490px;
+	top: 50%;
+	margin-top: -216px;
+}
+
+.accueil_page .accueil_box .accueil_con {
+	margin-top: 1%;
+	/*margin-right: 21%;*/
+}
+
+.suo-login-box {
+	box-sizing: border-box;
+	width: 400px;
+}
+
+.login_new_box {
+	position: relative;
+	float: right;
+	padding: 30px 35px 28px;
+	vertical-align: middle;
+}
+
+#body_0 .login_new_box .bg {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: #ecf9ff;
+}
+
+.scan_loginBox {
+	position: relative;
+}
+
+.scan_top {
+	position: absolute;
+	right: -35px;
+	top: -30px;
+	width: 310px;
+	height: 70px;
+	margin: 5px;
+	/* background: url(img/bg_scan_top.png)no-repeat right top; */
+	background-size: 88% auto;
+}
+
+.linkToComputer {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	width: 40px;
+	height: 35px;
+	background: url("../../img/passport/icon_img_computer.png") no-repeat center;
+	-webkit-background-size: 100%;
+	background-size: 100%;
+	cursor: pointer;
+}
+
+.suo-scan-top {
+	position: absolute;
+	top: -20px;
+	background: url("../../img/passport/bg_scan_top_mm.png") no-repeat center;
+	background-size: cover;
+	width: 147px;
+	height: 27px;
+}
+
+.suo-scan-text {
+	color: rgba(51, 51, 51, 1);
+	font-size: 20px;
+	line-height: 38px;
+	position: absolute;
+	padding-top: 10px;
+	top: 0;
+	left: 0;
+	width: 170px;
+}
+
+.suo-scan-main {
+	padding: 40px 0;
+	color: #797979;
+}
+
+.bg_scan {
+	position: relative;
+	height: 150px;
+	margin: 25px 0 25px;
+}
+
+#autoScan {
+	width: 150px;
+	height: 150px;
+	margin: 0 auto;
+}
+
+.outDateTip_bg {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #ecf9ff;
+	opacity: 0.9;
+}
+
+.outDateTip_text {
+	position: absolute;
+	width: 100%;
+	top: 48px;
+	text-align: center;
+	color: #333;
+}
+
+.outDateTip_text a {
+	display: inline-block;
+	width: 80px;
+	height: 24px;
+	margin-top: 5px;
+	line-height: 24px;
+	background-color: #00a0e9;
+	text-align: center;
+	color: #fff;
+	border-radius: 2px;
+}
+
+a:link,
+a:visited {
+	color: #F00;
+}
+
+.bg_scan_tip {
+	padding-left: 100px;
+	background: url("../../img/passport/icon_img_scan.png") no-repeat 60px center;
+	-webkit-background-size: 30px;
+	background-size: 30px;
+	text-align: left;
+}
+
+.bg_scan_tip a {
+	padding: 0 4px;
+	color: #00a0e9;
+}
+
+.scan_bottom {
+	position: absolute;
+	right: 0;
+	bottom: -5px;
+}
+
+.scan_bottom a {
+	font-size: 12px;
+	color: #797979;
+}
+
+.scan_bottom a:nth-child(1) {
+	margin-right: 10px;
+}
+
+.scan_bottom a {
+	font-size: 12px;
+	color: #797979;
+}
+
+.suo-scanTip {
+	height: 27px;
+	right: 51px;
+	width: 147px;
+}
+
+.scanTip {
+	position: absolute;
+	top: 10px;
+	right: 45px;
+	background: url("../../img/passport/icon_img_passwordTip.png") no-repeat center;
+	background-size: cover;
+	width: 122px;
+	height: 21px;
+}
+
+.linkToScan {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	background: url("../../img/passport/icon_img_scans.png") no-repeat center;
+	background-size: cover;
+	width: 52px;
+	height: 52px;
+	cursor: pointer;
+}
+
+.hideScan {
+	position: absolute;
+	top: 0px;
+	right: 28px;
+	z-index: 9999;
+	width: 20px;
+	height: 80px;
+	/* background-color: red; */
+	transform: rotate(135deg);
+	-ms-transform: rotate(135deg);
+	-moz-transform: rotate(135deg);
+	-webkit-transform: rotate(135deg);
+	-o-transform: rotate(135deg);
+}
+
+.accueil_page .accueil_box .change_surface {
+	font-size: 0;
+	position: relative;
+	margin-top: 10px;
+}
+
+.accueil_page .accueil_box .change_surface .change_btn {
+	height: 33px;
+	width: 49%;
+	color: #999;
+	font-size: 16px;
+	border: none;
+	display: inline-block;
+	background: rgba(67, 131, 197, 0);
+	border-bottom: 1px solid #00a0e9;
+	box-sizing: border-box;
+}
+
+.accueil_page .accueil_box .change_surface .change_btn.active {
+	border-bottom: 2px solid #00a0e9;
+	height: 33px;
+	color: #333;
+}
+
+.login_new_box .input_box {
+	color: #ccc;
+	height: 40px;
+	margin-top: 12px;
+	background-color: #fff;
+	border: 1px solid #cdcdcd;
+	text-align: center;
+}
+
+.input_box {
+	position: relative;
+}
+
+.suo-login-box .input_box {
+	margin-top: 25px;
+}
+
+.input_box_left {
+	float: left;
+	width: 40px;
+	height: 40px;
+	background-color: #e2e2e4;
+	line-height: 40px;
+}
+
+.accueil_page .accueil_box .accueil_con .business_name {
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	-webkit-border-top-left-radius: 3px;
+	-moz-border-top-left-radius: 3px;
+	-o-border-top-left-radius: 3px;
+	-webkit-border-top-right-radius: 3px;
+	border-bottom-style: none;
+}
+
+.login_new_box .input_box input {
+	float: right;
+	width: 190px;
+	height: 40px;
+	padding-left: 10px;
+	line-height: 40px;
+	border: none!important;
+	background: none;
+	font-size: 16px;
+}
+
+.suo-login-box .input_box input {
+	width: 84%;
+}
+
+.suo-login-box .input_box {
+	margin-top: 25px;
+}
+
+.login_new_box .input_box {
+	color: #ccc;
+	height: 40px;
+	margin-top: 12px;
+	background-color: #fff;
+	border: 1px solid #cdcdcd;
+	text-align: center;
+}
+
+.input_box div.tips,
+.input_box div.pwd_tips,
+.input_box div.user_tips {
+	display: none;
+	font-size: 12px;
+	color: #d0021b;
+	border-radius: 3px;
+	position: absolute;
+	top: 45px;
+	padding: 3px;
+	min-width: 100px;
+	width: 100%;
+	text-align: center;
+}
+
+.accueil_page .accueil_box .accueil_con .pwd_name {
+	border-bottom: 1px solid rgba(1, 191, 255, 0.9);
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+	-webkit-border-bottom-left-radius: 3px;
+	-webkit-border-bottom-right-radius: 3px;
+}
+
+.submit_div {
+	margin-top: 20px;
+	position: relative;
+	z-index: 1;
+}
+
+.submit_div a.remember_pwd {
+	float: left;
+	padding-bottom: 10px;
+	font-size: 12px;
+	color: #797979;
+	margin-left: 3px;
+}
+
+.suo-remember-input {
+	display: inline-block;
+	margin-right: 5px;
+	vertical-align: middle;
+}
+
+.suo-login-box .submit_div a.find_pwd {
+	padding-bottom: 24px;
+}
+
+.submit_div a.find_pwd {
+	float: right;
+	padding-bottom: 10px;
+	font-size: 12px;
+	color: #797979;
+	margin-left: 3px;
+}
+
+.suo-login-box .submit_div button#dsb_login_submit,
+.suo-login-box .submit_div button#jxc_login_submit {
+	margin: 0 auto 23px;
+}
+
+.submit_div button#dsb_login_submit,
+.submit_div button#jxc_login_submit {
+	display: block;
+	width: 100%;
+	height: 40px;
+	margin: 0 auto 15px;
+	background: #f4915b;
+	color: #fff;
+	text-align: center;
+	font-size: 16px;
+	border: none;
+	background: rgba(255, 255, 255, 0.29);
+}
+
+.wm-weixin-btn {
+	display: block;
+	width: 100%;
+	height: 35px;
+	line-height: 35px;
+	border: 1px solid #22be4d;
+	border-radius: 4px;
+	text-align: center;
+	margin-bottom: 30px;
+	text-decoration: none;
+}
+
+.wm-wx-text {
+	display: inline-block;
+	color: #22be4d;
+	font-size: 14px;
+}
+
+.wm-wx-icon {
+	display: inline-block;
+	background: url("../../img/passport/wm_wx.png") no-repeat center;
+	background-size: cover;
+	width: 24px;
+	height: 20px;
+	margin-right: 6px;
+	position: relative;
+	top: 6px;
+}
+
+.registerBox {
+	text-align: right;
+}
+
+.submit_div a.regist_link {
+	color: #797979;
+}
+
+.submit_div a.regist_link {
+	font-size: 12px;
+	color: #00a0e9;
+	margin-right: 3px;
+}
+
+.wm-text {
+	font-size: 16px;
+	color: #fff;
+	text-align: left;
+	display: block;
+	position: relative;
+	top: -60px;
+}
+
+.suo-text-container {
+	color: #fff;
+	margin: auto;
+	position: absolute;
+	bottom: 20px;
+	width: 1200px;
+}
+
+.suo-text-container .suo-txt {
+	margin-bottom: 14px;
+}
+
+.suo-text-container .icon {
+	float: left;
+	margin-right: 10px;
+	width: 19px;
+	height: 21px;
+}
+
+.suo-text-container .icon.icon-1 {
+	background: url("../../img/passport/suo-icon-1.png") no-repeat center;
+	background-size: cover;
+}
+
+.suo-text-container .icon.icon-2 {
+	background: url("../../img/passport/suo-icon-2.png") no-repeat center;
+	background-size: contain;
+}
+
+.suo-text-container .icon.icon-3 {
+	background: url("../../img/passport/suo-icon-3.png") no-repeat center;
+	background-size: cover;
+	width: 19px;
+	height: 16px;
+}
+
+.suo-text-container .suo-erwei-btn {
+	position: relative;
+	cursor: pointer;
+}
+
+.suo-fr {
+	float: right;
+}
+
+.suo-erwei {
+	position: absolute;
+	top: -80px;
+	left: -170px;
+	display: none;
+	width: 160px;
+	height: 160px;
+}
+
+.suo-erwei img {
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+
+.suo-text-container {
+	color: #fff;
+	margin: auto;
+	position: relative;
+	top: 720px;
+	width: 1200px;
+}
+
+
+/*foot*/
+
+.aj-scrm-loin-foot {
+	width: 100%;
+	z-index: 10;
+	text-align: center;
+	margin: 0 auto;
+	padding: 20px 0;
+	color: #999;
+	line-height: 1.5;
+}
+
+
+/**
+ *.首页样式适配1400下的低分辨率屏幕
+ */
+
+@media screen and (max-width: 1400px) {
+	/*#body_0 {
+        background-size: 600px;
+        background-position: 10%;
+    }*/
+	.accueil_page .accueil_box .accueil_title img {
+		height: 45px;
+		width: 650px;
+	}
+	.accueil_page .accueil_box .state_img img {
+		width: 320px;
+	}
+	.accueil_page .accueil_box .accueil_con .accueil_right {
+		width: 400px;
+	}
+	.accueil_page .accueil_box .accueil_con .title_part img {
+		height: 45px;
+		width: 320px;
+	}
+	.register_box .register_con input {
+		width: 270px;
+	}
+	.main button {
+		padding: 0 5px;
+	}
+	.main button#free_use_btn {
+		padding: 0 10px;
+	}
+	.accueil_page .accueil_box {
+		width: 850px;
+		margin-left: -375px;
+		margin-top: -161px;
+	}
+	.accueil_page .accueil_box .accueil_con .title_part {
+		text-align: center;
+	}
+	.accueil_page .accueil_box .register_con {
+		padding: 0 40px;
+	}
+	.accueil_page .accueil_box .remember_word {
+		padding: 0 40px;
+	}
+	.accueil_page .accueil_box .change_surface .switch_over {
+		left: 130px;
+	}
+	.accueil_page .accueil_box .btn_submit {
+		padding: 6.5px 25px;
+	}
+	.accueil_page .accueil_box .login_btn {
+		padding: 0 40px;
+	}
+	.accueil_page .accueil_box .btn_submit {
+		font-size: 16px;
+	}
+	button#login_submit {
+		height: 38px;
+		padding: 0 60px;
+	}
+	.main button#free_use_btn {
+		margin-left: 20px;
+		padding: 0 10px;
+		text-align: right;
+	}
+	.main button#free_use_btn {
+		background: #ccc none repeat scroll 0 0;
+		border: medium none;
+		color: #fff;
+		padding: 0 24px;
+	}
+	.main button+button {
+		margin-left: 60px;
+	}
+	button.btn.btn_border.btn_white {
+		font-size: 16px;
+		height: 38px;
+		padding: 0 50px;
+	}
+	.main button {
+		font-size: 16px;
+		height: 43px;
+	}
+	.accueil_page .accueil_box .font {
+		font-size: 25px;
+	}
+	.input_box i {
+		top: 13px;
+	}
+	.register_box .register_con input {
+		line-height: 40px;
+		min-height: 40px;
+	}
+}

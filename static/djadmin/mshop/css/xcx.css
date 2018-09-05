@@ -1,0 +1,90 @@
+.xcx-stepper {
+  padding: 0 50px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  height: 200px;
+}
+
+.xcx-stepper-item {
+  position: relative;
+  border-top: 3px dashed #0a6aa1;
+  height: 200px;
+}
+
+.xcx-stepper-pic {
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  width: 103px;
+  height: 166px;
+  margin-left: -51px;
+}
+
+.xcx-stepper-item-auth {
+  border-top-color: #5eaffb;
+}
+
+.xcx-stepper-item-check {
+  border-top-color: #4ad095;
+}
+
+.xcx-stepper-item-finish {
+  border-top-color: #f6be5f;
+}
+
+.xcx-block {
+  margin-top: 20px;
+  border-top: 1px solid #e0e6ed;
+}
+
+.xcx-block .main-title {
+  margin: 10px 0;
+}
+
+.xcx-title {
+  margin: 20px 0;
+  font-size: 16px;
+  color: #202D3D;
+}
+
+.xcx-desc {
+  margin-top: -10px;
+  margin-bottom: 20px;
+  color: #99a9bf;
+}
+
+.dl-horizontal {
+  margin-bottom: 12px;
+  font-size: 15px;
+}
+
+.dl-horizontal dt {
+  width: 90px;
+  font-weight: normal;
+}
+
+.dl-horizontal dd {
+  margin-left: 90px;
+  color: #202d3d;
+}
+
+.phone-body img {
+  width: 100%;
+}
+
+.m-upload-banner {
+  width: 320px;
+  height: 226px;
+  line-height: 226px;
+}
+
+.xcx-banner {
+  height: 242px;
+  outline: 2px dashed #5aa2e7;
+  outline-offset: -2px;
+  -webkit-box-shadow: 0 0 8px rgba(26, 155, 246, 0.8);
+  -moz-box-shadow: 0 0 8px rgba(26, 155, 246, 0.8);
+  -ms-box-shadow: 0 0 8px rgba(26, 155, 246, 0.8);
+  -o-box-shadow: 0 0 8px rgba(26, 155, 246, 0.8);
+  box-shadow: 0 0 8px rgba(26, 155, 246, 0.8);
+}
