@@ -7,5 +7,5 @@
  */
 return [
     'app_key'=>'dada25269747433e46e',
-    'app_secret'=>'ea3b169df2ec9ab724289adf8b6631df'
+    'app_secret'=>'abea3b169df2ec9ab724289adf8b6631dfcd'
 ];
