@@ -5,16 +5,6 @@
  */
 return [
 
-    // // H5端Oauth登录
-    // 'wx_oauth' => [
-    //     'default' => [
-    //         'APPID' => 'wxa5b6321e646b96e7',
-    //         'APPSECRET' => '9b667c2c2d846f9a726ef6cb9a1ebbf4',
-    //         // =======【curl代理设置】=======
-    //         'CURL_PROXY_HOST' => '0.0.0.0',
-    //         'CURL_PROXY_PORT' => 0,
-    //     ],
-    // ],
 
     // 文章中心分类
     'article_cate' => [
